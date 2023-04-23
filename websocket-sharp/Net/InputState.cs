@@ -39,11 +39,11 @@
 
 using System;
 
-namespace WebSocketSharp.Net
+namespace AltWebSocketSharp.Net
 {
-  internal enum InputState
-  {
-    RequestLine,
-    Headers
-  }
+    internal enum InputState
+    {
+        RequestLine,
+        Headers
+    }
 }

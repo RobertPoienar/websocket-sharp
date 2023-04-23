@@ -28,13 +28,13 @@
 
 using System;
 
-namespace WebSocketSharp.Server
+namespace AltWebSocketSharp.Server
 {
-  internal enum ServerState
-  {
-    Ready,
-    Start,
-    ShuttingDown,
-    Stop
-  }
+    internal enum ServerState
+    {
+        Ready,
+        Start,
+        ShuttingDown,
+        Stop
+    }
 }

@@ -27,67 +27,69 @@
 #endregion
 
 using System;
-
-namespace WebSocketSharp.Server
+using AltWebSocketSharp.Net.WebSockets;
+namespace AltWebSocketSharp.Server
 {
-  internal class WebSocketServiceHost<TBehavior> : WebSocketServiceHost
-    where TBehavior : WebSocketBehavior, new ()
-  {
-    #region Private Fields
-
-    private Func<TBehavior> _creator;
-
-    #endregion
-
-    #region Internal Constructors
-
-    internal WebSocketServiceHost (
-      string path, Action<TBehavior> initializer, Logger log
-    )
-      : base (path, log)
+    internal class WebSocketServiceHost<TBehavior> : WebSocketServiceHost
+      where TBehavior : WebSocketBehavior, new()
     {
-      _creator = createSessionCreator (initializer);
+        #region Private Fields
+
+        private Func<WebSocketContext, TBehavior> _creator;
+
+        #endregion
+
+        #region Internal Constructors
+
+        internal WebSocketServiceHost(
+          string path, Action<WebSocketContext, TBehavior> initializer, Logger log
+        )
+          : base(path, log)
+        {
+            _creator = createSessionCreator(initializer);
+        }
+
+        #endregion
+
+        #region Public Properties
+
+        public override Type BehaviorType
+        {
+            get
+            {
+                return typeof(TBehavior);
+            }
+        }
+
+        #endregion
+
+        #region Private Methods
+
+        private static Func<WebSocketContext, TBehavior> createSessionCreator(
+          Action<WebSocketContext, TBehavior> initializer
+        )
+        {
+
+
+            return (context) =>
+            {
+                var ret = new TBehavior();
+                if (initializer != null)
+                    initializer(context, ret);
+
+                return ret;
+            };
+        }
+
+        #endregion
+
+        #region Protected Methods
+
+        protected override WebSocketBehavior CreateSession(WebSocketContext context)
+        {
+            return _creator(context);
+        }
+
+        #endregion
     }
-
-    #endregion
-
-    #region Public Properties
-
-    public override Type BehaviorType {
-      get {
-        return typeof (TBehavior);
-      }
-    }
-
-    #endregion
-
-    #region Private Methods
-
-    private static Func<TBehavior> createSessionCreator (
-      Action<TBehavior> initializer
-    )
-    {
-      if (initializer == null)
-        return () => new TBehavior ();
-
-      return () => {
-               var ret = new TBehavior ();
-
-               initializer (ret);
-
-               return ret;
-             };
-    }
-
-    #endregion
-
-    #region Protected Methods
-
-    protected override WebSocketBehavior CreateSession ()
-    {
-      return _creator ();
-    }
-
-    #endregion
-  }
 }
