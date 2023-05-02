@@ -1,0 +1,21 @@
+name: release
+
+on:
+  release:
+    types: [published]
+jobs:
+  publish-nuget-package:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v2.1.1
+
+      - name: Upload to Nuget
+        env:
+          NUGET_DEPLOY_KEY: ${{ secrets.NUGET_DEPLOY_KEY }}
+        run: |
+          cd websocket-sharp
+          dotnet pack websocket-sharp\altwebsocket-sharp.csproj -c release
+          dotnet nuget push bin/release/AltWebSocketSharp.1.0.0.nupkg --api-key $NUGET_DEPLOY_KEY --source https://api.nuget.org/v3/index.json

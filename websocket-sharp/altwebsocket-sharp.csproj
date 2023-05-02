@@ -8,6 +8,13 @@
     <AssemblyOriginatorKeyFile>altwebsocket-sharp.snk</AssemblyOriginatorKeyFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Title>AltWebSocketSharp</Title>
+    <PackageId>AltWebSocketSharp</PackageId>
+    <IsPackable>true</IsPackable>
+    <Authors> Altom </Authors>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageProjectUrl>https://github.com/alttester/alt-websocket-sharp</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug</OutputPath>
@@ -42,6 +49,9 @@
     <Folder Include="Server\" />
     <Folder Include="Net\" />
     <Folder Include="Net\WebSockets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.ServiceModel.Duplex" Version="4.8.1" />
