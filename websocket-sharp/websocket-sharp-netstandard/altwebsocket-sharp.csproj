@@ -1,8 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net6.0;net7.0</TargetFrameworks>
+    <OutputType>Library</OutputType>
     <RootNamespace>AltWebSocketSharp</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../websocket-sharp/altwebsocket-sharp.snk</AssemblyOriginatorKeyFile>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Title>AltWebSocketSharp</Title>
+    <PackageId>AltWebSocketSharp</PackageId>
+    <IsPackable>true</IsPackable>
+    <Authors> Altom </Authors>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageProjectUrl>https://github.com/alttester/alt-websocket-sharp</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -104,6 +116,9 @@
   <ItemGroup>
     <Folder Include="Net\WebSockets\" />
     <Folder Include="Server\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../LICENSE.txt" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
