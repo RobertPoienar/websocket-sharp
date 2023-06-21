@@ -17,6 +17,6 @@ jobs:
         env:
           NUGET_DEPLOY_KEY: ${{ secrets.NUGET_DEPLOY_KEY }}
         run: |
-          cd websocket-sharp
-          dotnet pack websocket-sharp-netstandard/altwebsocket-sharp.csproj -c release
+          cd websocket-sharp/websocket-sharp-netstandard
+          dotnet pack altwebsocket-sharp.csproj -c release
           dotnet nuget push bin/release/AltWebSocketSharp.1.0.6.nupkg --api-key $NUGET_DEPLOY_KEY --source https://api.nuget.org/v3/index.json
