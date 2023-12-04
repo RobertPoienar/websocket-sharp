@@ -1,9 +1,12 @@
 name: release
 
-on:
-  release:
-    types: published
-  workflow_dispatch:
+# on:
+#   release:
+#     types: published
+#   workflow_dispatch:
+
+on: ['push']
+  
 jobs:
   publish-nuget-package:
     runs-on: ubuntu-latest
