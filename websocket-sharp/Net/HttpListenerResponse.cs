@@ -50,7 +50,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Represents an HTTP response to an HTTP request received by

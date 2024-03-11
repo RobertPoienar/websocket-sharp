@@ -30,7 +30,7 @@ using System;
 using System.Collections.Specialized;
 using System.Security.Principal;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Holds the username and other parameters from

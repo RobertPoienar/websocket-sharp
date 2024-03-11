@@ -30,9 +30,9 @@ using System;
 using System.Collections.Specialized;
 using System.IO;
 using System.Text;
-using AltWebSocketSharp.Net;
+using AltServerWebSocketSharp.Net;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     internal class HttpResponse : HttpBase
     {

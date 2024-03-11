@@ -36,7 +36,7 @@ using System.Security.Cryptography;
 using System.Security.Principal;
 using System.Text;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal class AuthenticationResponse : AuthenticationBase
     {

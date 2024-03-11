@@ -50,10 +50,10 @@ using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
-using AltWebSocketSharp.Net;
-using AltWebSocketSharp.Net.WebSockets;
+using AltServerWebSocketSharp.Net;
+using AltServerWebSocketSharp.Net.WebSockets;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     /// <summary>
     /// Implements the WebSocket interface.

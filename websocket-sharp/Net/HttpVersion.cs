@@ -38,7 +38,7 @@
 
 using System;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Provides the HTTP version numbers.

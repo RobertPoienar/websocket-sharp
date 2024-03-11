@@ -29,9 +29,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using AltWebSocketSharp.Net.WebSockets;
+using AltServerWebSocketSharp.Net.WebSockets;
 
-namespace AltWebSocketSharp.Server
+namespace AltServerWebSocketSharp.Server
 {
     /// <summary>
     /// Provides the management function for the WebSocket services.

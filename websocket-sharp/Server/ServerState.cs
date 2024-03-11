@@ -28,7 +28,7 @@
 
 using System;
 
-namespace AltWebSocketSharp.Server
+namespace AltServerWebSocketSharp.Server
 {
     internal enum ServerState
     {

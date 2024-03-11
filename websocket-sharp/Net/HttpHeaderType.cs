@@ -28,7 +28,7 @@
 
 using System;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     [Flags]
     internal enum HttpHeaderType

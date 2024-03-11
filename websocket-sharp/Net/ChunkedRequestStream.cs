@@ -40,7 +40,7 @@
 using System;
 using System.IO;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal class ChunkedRequestStream : RequestStream
     {

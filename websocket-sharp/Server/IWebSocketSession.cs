@@ -28,7 +28,7 @@
 
 using System;
 
-namespace AltWebSocketSharp.Server
+namespace AltServerWebSocketSharp.Server
 {
     /// <summary>
     /// Exposes the access to the information in a WebSocket session.

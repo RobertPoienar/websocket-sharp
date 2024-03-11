@@ -36,7 +36,7 @@
  */
 #endregion
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Indicates the HTTP status code that can be specified in a server response.

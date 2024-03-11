@@ -49,7 +49,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal sealed class EndPointManager
     {

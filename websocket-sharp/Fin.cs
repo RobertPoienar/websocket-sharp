@@ -28,7 +28,7 @@
 
 using System;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     /// <summary>
     /// Indicates whether a WebSocket frame is the final frame of a message.

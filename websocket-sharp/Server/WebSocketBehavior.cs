@@ -30,10 +30,10 @@ using System;
 using System.Collections.Specialized;
 using System.IO;
 using System.Security.Principal;
-using AltWebSocketSharp.Net;
-using AltWebSocketSharp.Net.WebSockets;
+using AltServerWebSocketSharp.Net;
+using AltServerWebSocketSharp.Net.WebSockets;
 
-namespace AltWebSocketSharp.Server
+namespace AltServerWebSocketSharp.Server
 {
     /// <summary>
     /// Exposes a set of methods and properties used to define the behavior of

@@ -28,7 +28,7 @@
 
 using System;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     /// <summary>
     /// Specifies the byte order.

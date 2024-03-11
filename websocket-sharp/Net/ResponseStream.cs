@@ -41,7 +41,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal class ResponseStream : Stream
     {

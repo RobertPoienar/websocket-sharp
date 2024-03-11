@@ -40,7 +40,7 @@
 using System;
 using System.Security.Principal;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Holds the username and password from an HTTP Basic authentication attempt.

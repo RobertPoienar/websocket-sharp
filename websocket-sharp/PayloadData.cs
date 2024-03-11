@@ -30,7 +30,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     internal class PayloadData : IEnumerable<byte>
     {

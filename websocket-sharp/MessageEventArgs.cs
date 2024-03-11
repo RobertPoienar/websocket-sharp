@@ -28,7 +28,7 @@
 
 using System;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     /// <summary>
     /// Represents the event data for the <see cref="WebSocket.OnMessage"/> event.

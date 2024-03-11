@@ -27,8 +27,8 @@
 #endregion
 
 using System;
-using AltWebSocketSharp.Net.WebSockets;
-namespace AltWebSocketSharp.Server
+using AltServerWebSocketSharp.Net.WebSockets;
+namespace AltServerWebSocketSharp.Server
 {
     internal class WebSocketServiceHost<TBehavior> : WebSocketServiceHost
       where TBehavior : WebSocketBehavior, new()

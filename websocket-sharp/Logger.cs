@@ -30,7 +30,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     /// <summary>
     /// Provides a set of methods and properties for logging.

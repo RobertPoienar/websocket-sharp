@@ -52,7 +52,7 @@ using System.Security.Principal;
 using System.Threading;
 
 // TODO: Logging.
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Provides a simple, programmatically controlled HTTP listener.

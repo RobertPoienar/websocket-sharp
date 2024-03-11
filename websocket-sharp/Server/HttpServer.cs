@@ -44,10 +44,10 @@ using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 using System.Text;
 using System.Threading;
-using AltWebSocketSharp.Net;
-using AltWebSocketSharp.Net.WebSockets;
+using AltServerWebSocketSharp.Net;
+using AltServerWebSocketSharp.Net.WebSockets;
 
-namespace AltWebSocketSharp.Server
+namespace AltServerWebSocketSharp.Server
 {
     /// <summary>
     /// Provides a simple HTTP server.

@@ -54,7 +54,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal sealed class HttpConnection
     {

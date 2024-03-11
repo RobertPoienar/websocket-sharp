@@ -44,7 +44,7 @@ using System;
 using System.Globalization;
 using System.Text;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Provides a set of methods and properties used to manage an HTTP cookie.

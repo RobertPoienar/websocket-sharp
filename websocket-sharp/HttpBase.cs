@@ -33,9 +33,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using AltWebSocketSharp.Net;
+using AltServerWebSocketSharp.Net;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     internal abstract class HttpBase
     {

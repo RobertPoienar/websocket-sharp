@@ -28,7 +28,7 @@
 
 using System;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     /// <summary>
     /// Indicates the status code for the WebSocket connection close.

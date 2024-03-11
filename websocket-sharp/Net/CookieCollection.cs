@@ -45,7 +45,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Provides a collection of instances of the <see cref="Cookie"/> class.

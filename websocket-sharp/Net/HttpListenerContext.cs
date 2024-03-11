@@ -40,9 +40,9 @@
 using System;
 using System.Security.Principal;
 using System.Text;
-using AltWebSocketSharp.Net.WebSockets;
+using AltServerWebSocketSharp.Net.WebSockets;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Provides the access to the HTTP request and response objects used by

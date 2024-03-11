@@ -47,7 +47,7 @@
 using System;
 using System.Threading;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal class HttpListenerAsyncResult : IAsyncResult
     {

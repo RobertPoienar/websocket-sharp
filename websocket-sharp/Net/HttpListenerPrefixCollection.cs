@@ -41,7 +41,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Provides a collection used to store the URI prefixes for a instance of

@@ -30,7 +30,7 @@ using System;
 using System.Diagnostics;
 using System.Text;
 
-namespace AltWebSocketSharp
+namespace AltServerWebSocketSharp
 {
     /// <summary>
     /// Represents a log data used by the <see cref="Logger"/> class.
@@ -141,7 +141,7 @@ namespace AltWebSocketSharp
             var num = _caller.GetFileLineNumber();
             var caller = String.Format("{0}.{1}:{2}", type.Name, method.Name, num);
 #else
-      var caller = String.Format ("{0}.{1}", type.Name, method.Name);
+            var caller = String.Format("{0}.{1}", type.Name, method.Name);
 #endif
             var msgs = _message.Replace("\r\n", "\n").TrimEnd('\n').Split('\n');
 

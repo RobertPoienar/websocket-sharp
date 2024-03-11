@@ -37,7 +37,7 @@
  */
 #endregion
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Indicates the HTTP header that may be specified in a client request.

@@ -44,7 +44,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal class ChunkStream
     {

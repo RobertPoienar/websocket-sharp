@@ -3,17 +3,17 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net6.0;net7.0</TargetFrameworks>
     <OutputType>Library</OutputType>
-    <RootNamespace>AltWebSocketSharp</RootNamespace>
+    <RootNamespace>AltServerWebSocketSharp</RootNamespace>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>altwebsocket-sharp.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>altserverwebsocket-sharp.snk</AssemblyOriginatorKeyFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <Title>AltWebSocketSharp</Title>
-    <PackageId>AltWebSocketSharp</PackageId>
+    <Title>AltServerWebSocketSharp</Title>
+    <PackageId>AltServerWebSocketSharp</PackageId>
     <IsPackable>true</IsPackable>
     <Authors> Altom </Authors>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <PackageProjectUrl>https://github.com/alttester/alt-websocket-sharp</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/alttester/altserver-websocket-sharp</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

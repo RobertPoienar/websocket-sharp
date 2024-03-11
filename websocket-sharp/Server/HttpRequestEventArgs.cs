@@ -30,9 +30,9 @@ using System;
 using System.IO;
 using System.Security.Principal;
 using System.Text;
-using AltWebSocketSharp.Net;
+using AltServerWebSocketSharp.Net;
 
-namespace AltWebSocketSharp.Server
+namespace AltServerWebSocketSharp.Server
 {
     /// <summary>
     /// Represents the event data for the HTTP request events of the

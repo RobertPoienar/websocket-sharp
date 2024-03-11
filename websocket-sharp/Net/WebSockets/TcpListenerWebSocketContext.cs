@@ -42,7 +42,7 @@ using System.Net.Sockets;
 using System.Security.Principal;
 using System.Text;
 
-namespace AltWebSocketSharp.Net.WebSockets
+namespace AltServerWebSocketSharp.Net.WebSockets
 {
     /// <summary>
     /// Provides the access to the information in a WebSocket handshake request

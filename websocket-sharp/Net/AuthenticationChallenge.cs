@@ -30,7 +30,7 @@ using System;
 using System.Collections.Specialized;
 using System.Text;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal class AuthenticationChallenge : AuthenticationBase
     {

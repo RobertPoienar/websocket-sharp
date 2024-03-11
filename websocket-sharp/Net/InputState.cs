@@ -39,7 +39,7 @@
 
 using System;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     internal enum InputState
     {

@@ -28,7 +28,7 @@
 
 using System;
 
-namespace AltWebSocketSharp.Net
+namespace AltServerWebSocketSharp.Net
 {
     /// <summary>
     /// Provides the credentials for the password-based authentication.
